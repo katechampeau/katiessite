@@ -7,12 +7,7 @@
   height: 80px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
+
 
 .App-title {
   font-size: 1.5em;
@@ -22,7 +17,15 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.App-logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -3;
+  opacity: .3;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+
 }
